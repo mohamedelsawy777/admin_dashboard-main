@@ -29,7 +29,7 @@
       // Dynamically set the base href based on the deployment environment
       (function () {
         var baseTag = document.createElement("base");
-        var deployUrl = "/admin_dashboard-main/";
+        var deployUrl = "/admin_dashboard/";
 
         // Check if we're on GitHub Pages
         if (window.location.hostname.includes("github.io")) {
